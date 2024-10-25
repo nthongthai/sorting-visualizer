@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Custom Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 class="pixelify-sans-title">Sorting Visualizer</h1>
+    <div class="control">
+        <button id="startBtn">Start Algorithm</button>
+        <select id="algorithmSelect">
+            <option value="insertionSort">Insertion</option>
+            <option value="selectionSort">Selection</option>
+            <option value="bubbleSort">Bubble</option>
+            <option value="mergeSort">Merge</option>
+            <option value="quickSort">Quick</option>
+            <option value="countingSort">Counting</option>
+        </select>
+        <button id="resetBtn">Reset</button>
+        <button id="pauseBtn">Pause</button>
+    </div>
+    <div id="visualizer"></div>
+    <script src="visualizer.js" type="module"></script>
+</body>
+</html>

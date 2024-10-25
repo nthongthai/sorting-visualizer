@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.control {
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#visualizer {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+.bar {
+    width: 10px;
+    margin: 0 1px;
+    background-color: teal;
+    display: inline-block;
+}
+
+.pixelify-sans-title {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: #333;
+}
